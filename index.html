@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Honest comparison of the best digital banking apps in 2026. Chime vs Cash App, neobank reviews, fee breakdowns and more.">
+    <meta name="keywords" content="digital banking, neobank, Chime, Cash App, online banking, fintech, mobile banking">
+    <title>Digital Banking Hub - Honest Neobank Reviews 2026</title>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --navy:   #0d2b52;
+            --blue:   #1a4480;
+            --green:  #00b87a;
+            --green2: #00965f;
+            --text:   #1c1c2e;
+            --muted:  #52526a;
+            --bg:     #f2f4f8;
+            --card:   #ffffff;
+            --border: #e4e8f0;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            color: var(--text);
+            background: var(--bg);
+            line-height: 1.75;
+            font-size: 16px;
+        }
+
+        /* ─── HEADER ─── */
+        header {
+            background: linear-gradient(150deg, #0d2b52 0%, #1a4480 60%, #1e5799 100%);
+            color: #fff;
+            padding: 56px 20px 64px;
+            text-align: center;
+        }
+        .logo-label {
+            font-size: 11px;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.55);
+            margin-bottom: 18px;
+        }
+        header h1 {
+            font-size: clamp(1.7em, 5vw, 2.7em);
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 16px;
+            color: #fff;
+        }
+        header p {
+            font-size: clamp(0.95em, 2.5vw, 1.08em);
+            color: rgba(255,255,255,0.78);
+            max-width: 520px;
+            margin: 0 auto;
+        }
+
+        /* ─── NAV ─── */
+        nav {
+            background: rgba(13,43,82,0.98);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2px;
+            box-shadow: 0 2px 14px rgba(0,0,0,0.22);
+        }
+        nav a {
+            color: rgba(255,255,255,0.72);
+            text-decoration: none;
+            padding: 13px 16px;
+            font-size: 0.87em;
+            font-weight: 600;
+            letter-spacing: 0.3px;
+            transition: color 0.18s;
+            border-bottom: 2px solid transparent;
+        }
+        nav a:hover {
+            color: #fff;
+            border-bottom-color: var(--green);
+        }
+
+        /* ─── LAYOUT ─── */
+        .container {
+            max-width: 840px;
+            margin: 0 auto;
+            padding: 24px 16px;
+        }
+
+        /* ─── CARD ─── */
+        .card {
+            background: var(--card);
+            border-radius: 18px;
+            padding: clamp(24px, 5vw, 48px);
+            margin: 24px 0;
+            box-shadow: 0 2px 18px rgba(13,43,82,0.07);
+            border: 1px solid var(--border);
+        }
+
+        /* ─── BADGE ─── */
+        .badge {
+            display: inline-block;
+            background: #e6f7f1;
+            color: #0a6644;
+            padding: 4px 13px;
+            border-radius: 20px;
+            font-size: 0.72em;
+            font-weight: 700;
+            letter-spacing: 0.8px;
+            text-transform: uppercase;
+            margin-bottom: 14px;
+        }
+
+        /* ─── TYPOGRAPHY ─── */
+        h2 {
+            font-size: clamp(1.3em, 4vw, 1.9em);
+            color: var(--navy);
+            margin-bottom: 8px;
+            line-height: 1.25;
+            font-weight: 800;
+        }
+        h3 {
+            font-size: 1.08em;
+            color: var(--navy);
+            margin: 28px 0 10px;
+            font-weight: 700;
+        }
+        h4 {
+            font-size: 0.93em;
+            color: var(--navy);
+            margin-bottom: 6px;
+            font-weight: 700;
+        }
+        p {
+            margin-bottom: 15px;
+            color: var(--muted);
+            font-size: 0.97em;
+        }
+        p:last-child { margin-bottom: 0; }
+
+        /* ─── META TAGS ─── */
+        .meta {
+            color: #888;
+            font-size: 0.82em;
+            margin-bottom: 22px;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 5px;
+        }
+        .meta-author {
+            color: #888;
+            margin-right: 4px;
+        }
+        .meta span {
+            background: #edf0fc;
+            color: #3650c8;
+            padding: 2px 10px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        /* ─── TABLE ─── */
+        .table-wrap {
+            overflow-x: auto;
+            margin: 22px 0;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 380px;
+        }
+        thead th {
+            background: var(--navy);
+            color: #fff;
+            padding: 12px 16px;
+            text-align: left;
+            font-size: 0.85em;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+        }
+        thead th:first-child { border-radius: 12px 0 0 0; }
+        thead th:last-child  { border-radius: 0 12px 0 0; }
+        td {
+            padding: 11px 16px;
+            border-bottom: 1px solid #f0f2f8;
+            font-size: 0.92em;
+            vertical-align: middle;
+            color: var(--text);
+        }
+        tr:last-child td { border-bottom: none; }
+        tr:nth-child(even) td { background: #f8fafd; }
+        .win  { color: #0a7a4a; font-weight: 700; }
+        .lose { color: #c0392b; }
+        .tie  { color: #666; }
+
+        /* ─── FEATURES GRID ─── */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 14px;
+            margin: 20px 0;
+        }
+        .feat {
+            background: #f6f8fe;
+            border-radius: 12px;
+            padding: 18px 16px;
+            border-top: 3px solid var(--green);
+        }
+        .feat h4 { color: var(--navy); margin-bottom: 5px; font-size: 0.9em; }
+        .feat p   { color: var(--muted); font-size: 0.85em; margin: 0; }
+
+        /* ─── VERDICT BOX ─── */
+        .verdict {
+            background: #f0fbf5;
+            border-radius: 12px;
+            padding: 20px 22px;
+            margin: 22px 0;
+            border-left: 4px solid var(--green);
+        }
+        .verdict h4 { color: #095c38; margin-bottom: 7px; font-size: 0.97em; }
+        .verdict p  { color: #1d4130; margin: 0; font-size: 0.94em; }
+
+        /* ─── INLINE LINK ─── */
+        a.inline-link {
+            color: var(--blue);
+            font-weight: 600;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+        a.inline-link:hover { color: var(--green2); }
+
+        /* ─── CTA BLOCK ─── */
+        .cta {
+            background: linear-gradient(140deg, var(--navy) 0%, var(--blue) 100%);
+            color: #fff;
+            border-radius: 18px;
+            padding: clamp(30px, 5vw, 48px) clamp(20px, 4vw, 42px);
+            text-align: center;
+            margin: 28px 0;
+            box-shadow: 0 6px 28px rgba(13,43,82,0.2);
+        }
+        .cta h3 {
+            font-size: clamp(1.1em, 3.5vw, 1.45em);
+            color: #fff;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+        .cta p {
+            color: rgba(255,255,255,0.78);
+            margin-bottom: 24px;
+            font-size: 0.96em;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: var(--green);
+            color: #fff;
+            padding: 14px 34px;
+            border-radius: 10px;
+            font-weight: 800;
+            font-size: 1em;
+            text-decoration: none;
+            letter-spacing: 0.2px;
+            transition: background 0.18s, transform 0.18s;
+            box-shadow: 0 4px 14px rgba(0,184,122,0.28);
+        }
+        .cta-btn:hover {
+            background: var(--green2);
+            transform: translateY(-2px);
+        }
+
+        /* ─── FOOTER ─── */
+        footer {
+            background: var(--navy);
+            text-align: center;
+            padding: 40px 20px;
+            margin-top: 60px;
+        }
+        .footer-inner {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .footer-brand {
+            font-size: 0.78em;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: rgba(255,255,255,0.4);
+            margin-bottom: 14px;
+        }
+        .footer-text {
+            color: rgba(255,255,255,0.75);
+            font-size: 0.88em;
+            margin-bottom: 8px;
+        }
+        .footer-text a {
+            color: var(--green);
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .footer-text a:hover { text-decoration: underline; }
+        .footer-note {
+            color: rgba(255,255,255,0.4);
+            font-size: 0.78em;
+            margin-top: 16px;
+        }
+
+        /* ─── MOBILE ─── */
+        @media (max-width: 520px) {
+            nav a { padding: 10px 11px; font-size: 0.81em; }
+            .card  { padding: 20px 16px; border-radius: 14px; }
+            .grid  { grid-template-columns: 1fr 1fr; }
+            .cta   { border-radius: 14px; }
+        }
+        @media (max-width: 360px) {
+            .grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-label">Digital Banking Hub</div>
+    <h1>Stop Paying Fees to Your Bank.<br>There Is a Better Way.</h1>
+    <p>Independent reviews and honest comparisons of the top neobanks in the US. No sponsored content, no fluff.</p>
+</header>
+
+<nav>
+    <a href="#compare">Chime vs Cash App</a>
+    <a href="#reasons">Why Switch</a>
+    <a href="#resources">Resources</a>
+</nav>
+
+<div class="container">
+
+    <!-- ARTICLE 1 -->
+    <article class="card" id="compare">
+        <span class="badge">Featured Comparison</span>
+        <h2>Chime vs Cash App: What Nobody Tells You (2026)</h2>
+        <p class="meta">
+            <span class="meta-author">By Daniel Y.</span>
+            <span>Neobank</span>
+            <span>Fees</span>
+            <span>2026</span>
+        </p>
+
+        <p>I used both apps as my main account for six months. Here is what I actually found, without the marketing spin.</p>
+        <p>Chime and Cash App are two of the most popular financial apps in the US right now, but they are built for completely different needs. Picking the wrong one can cost you real money.</p>
+
+        <h3>Fee Breakdown</h3>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Chime</th>
+                        <th>Cash App</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Monthly Fee</td>
+                        <td class="win">$0</td>
+                        <td class="win">$0</td>
+                    </tr>
+                    <tr>
+                        <td>Overdraft Fee</td>
+                        <td class="win">$0 via SpotMe (up to $200)</td>
+                        <td class="lose">$35</td>
+                    </tr>
+                    <tr>
+                        <td>ATM Fees</td>
+                        <td class="win">$0 at 60,000+ ATMs</td>
+                        <td class="lose">$2 out of network</td>
+                    </tr>
+                    <tr>
+                        <td>Instant Transfer</td>
+                        <td class="win">$0</td>
+                        <td class="lose">1.5% fee</td>
+                    </tr>
+                    <tr>
+                        <td>Savings APY</td>
+                        <td class="win">2.00% APY</td>
+                        <td class="lose">0.00%</td>
+                    </tr>
+                    <tr>
+                        <td>Early Paycheck</td>
+                        <td class="win">Up to 2 days early</td>
+                        <td class="tie">Standard timing</td>
+                    </tr>
+                    <tr>
+                        <td>Stock Investing</td>
+                        <td class="lose">Not available</td>
+                        <td class="win">From $1</td>
+                    </tr>
+                    <tr>
+                        <td>Bitcoin</td>
+                        <td class="lose">Not available</td>
+                        <td class="win">Available</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h3>Chime: Best for everyday banking</h3>
+        <p>If you want a real bank replacement, Chime is hard to beat. No monthly fees, no overdraft surprises, and your savings actually grow at 2.00% APY. That is 200 times better than what most traditional banks offer.</p>
+
+        <div class="grid">
+            <div class="feat">
+                <h4>Get paid early</h4>
+                <p>Direct deposit arrives up to 2 days before your official payday.</p>
+            </div>
+            <div class="feat">
+                <h4>SpotMe coverage</h4>
+                <p>Go negative up to $200 with zero overdraft fees. No stress.</p>
+            </div>
+            <div class="feat">
+                <h4>2.00% APY savings</h4>
+                <p>$10,000 saved earns $200 per year. Big banks give you $1.</p>
+            </div>
+            <div class="feat">
+                <h4>60K free ATMs</h4>
+                <p>MoneyPass and Visa Plus Alliance across the entire US.</p>
+            </div>
+        </div>
+
+        <h3>Cash App: Best for sending money and investing</h3>
+        <p>Cash App is not really a bank. It is more of a financial Swiss Army knife. You can split a bill, buy $5 worth of Apple stock, and pick up some Bitcoin, all from the same app. The Cash Card Boosts give you instant discounts at real stores.</p>
+        <p>Just do not use it as a savings account. Zero APY means your money does nothing sitting there.</p>
+
+        <div class="verdict">
+            <h4>Bottom line</h4>
+            <p>Use Chime if your main goal is fee free banking and growing your savings. Use Cash App if you need to send money often and want to start investing with small amounts. A lot of people end up using both, which honestly makes sense.</p>
+        </div>
+
+        <p>If you want a deeper look at how Chime became one of the biggest players in the space, the <a href="https://en.wikipedia.org/wiki/Chime_Financial" class="inline-link" target="_blank" rel="noopener">Wikipedia entry on Chime Financial</a> is a solid starting point. It covers the company history, business model and how it has grown since 2013.</p>
+    </article>
+
+    <!-- CTA -->
+    <div class="cta" id="resources">
+        <h3>Not Sure Which App Fits You?</h3>
+        <p>Compare fees, APY rates and features across all major neobanks in one place. Updated for 2026.</p>
+        <a href="https://banksmobile.net" class="cta-btn">See Full Comparison at BanksMobile</a>
+    </div>
+
+    <!-- ARTICLE 2 -->
+    <article class="card" id="reasons">
+        <span class="badge">Quick Read</span>
+        <h2>5 Signs Your Bank Is Costing You Too Much</h2>
+        <p class="meta">
+            <span class="meta-author">By Daniel Y.</span>
+            <span>Guide</span>
+            <span>Savings</span>
+        </p>
+
+        <p>Most people stick with their bank out of habit. But if any of these sound familiar, you might be losing hundreds of dollars a year without realizing it.</p>
+
+        <h3>You pay a monthly fee just to have an account</h3>
+        <p>Chase, Bank of America and Wells Fargo all charge $10 to $15 per month unless you meet certain conditions. That is up to $180 per year for nothing. Neobanks charge zero.</p>
+
+        <h3>Your savings account earns basically nothing</h3>
+        <p>The national average savings APY at big banks is 0.01%. Chime pays 2.00%. On a $5,000 emergency fund, that is $250 per year vs $0.50. The math is not close.</p>
+
+        <h3>You have been hit with overdraft fees</h3>
+        <p>One $35 overdraft fee costs more than a year of neobanking. Chime covers up to $200 in overdrafts at no cost through SpotMe. It is one of the most genuinely useful features in any banking app right now.</p>
+
+        <h3>You pay ATM fees on a regular basis</h3>
+        <p>Out of network ATM fees average almost $5 per transaction. Chime gives you 60,000 plus free ATMs. Two withdrawals per week adds up to nearly $500 saved per year.</p>
+
+        <h3>You have not been inside a branch in years</h3>
+        <p>If mobile check deposit, online transfers and the app handle everything you need, there is no reason to keep paying traditional bank fees for a service you are not using.</p>
+
+        <p>If you want to see which neobank actually fits your situation, BanksMobile.net breaks it all down with real numbers and no affiliate bias.</p>
+    </article>
+
+</div>
+
+<footer>
+    <div class="footer-inner">
+        <div class="footer-brand">Digital Banking Hub</div>
+        <p class="footer-text">Independent fintech research. No sponsored content, no affiliate bias.</p>
+        <p class="footer-text">Learn more about mobile banking on the <a href="https://en.wikipedia.org/wiki/Mobile_banking" style="color:#94a3b8; text-decoration:underline;" target="_blank" rel="noopener">Wikipedia page for mobile banking</a>.</p>
+        <p class="footer-note">Content is for informational purposes only. Not financial advice.</p>
+    </div>
+</footer>
+
+</body>
+</html>
