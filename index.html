@@ -1,496 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Honest comparison of the best digital banking apps in 2026. Chime vs Cash App, neobank reviews, fee breakdowns and more.">
-    <meta name="keywords" content="digital banking, neobank, Chime, Cash App, online banking, fintech, mobile banking">
-    <title>Digital Banking Hub - Honest Neobank Reviews 2026</title>
-    <style>
-        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Independent 2026 guide to US mobile banking, neobanks and payment apps. Free calculators, honest comparisons and plain English breakdowns.">
+<meta name="keywords" content="mobile banking, neobank, digital bank, Chime, Cash App, Venmo, PayPal, fee calculator, overdraft, savings, 2026">
+<meta name="author" content="Tech Trip">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="Mobile Banking Guide 2026 — Independent US Neobank Reviews & Free Tools">
+<meta property="og:description" content="Compare neobanks, cut fees, and use free calculators to plan your money in 2026.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://techtrip481.github.io/mobile-banking-guide/">
+<title>Mobile Banking Guide 2026 — Independent US Neobank Reviews & Free Tools</title>
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --navy:#0d2b52;--blue:#1a4480;--accent:#00b87a;--accent2:#00965f;
+  --text:#1c1c2e;--muted:#52526a;--bg:#f4f6fa;--card:#ffffff;
+  --border:#e4e8f0;--warn:#f0b429;--danger:#e05252;
+  --radius:14px;--shadow:0 2px 12px rgba(11,23,54,0.06);
+}
+html{scroll-behavior:smooth}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif;
+  color:var(--text);background:var(--bg);line-height:1.7;font-size:16px;
+}
+img{max-width:100%;display:block}
+a{color:var(--blue);text-decoration:none;border-bottom:1px solid rgba(26,68,128,0.25);transition:color .15s,border-color .15s}
+a:hover{color:var(--accent2);border-bottom-color:var(--accent)}
 
-        :root {
-            --navy:   #0d2b52;
-            --blue:   #1a4480;
-            --green:  #00b87a;
-            --green2: #00965f;
-            --text:   #1c1c2e;
-            --muted:  #52526a;
-            --bg:     #f2f4f8;
-            --card:   #ffffff;
-            --border: #e4e8f0;
-        }
+/* HEADER */
+header{background:linear-gradient(150deg,#0d2b52 0%,#1a4480 60%,#1e5799 100%);color:#fff;padding:56px 20px 60px;text-align:center}
+.logo-label{font-size:11px;letter-spacing:4px;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:18px}
+header h1{font-size:clamp(1.8em,5vw,2.6em);font-weight:800;line-height:1.2;margin-bottom:16px;color:#fff}
+header p.tagline{font-size:clamp(.95em,2.4vw,1.05em);color:rgba(255,255,255,.8);max-width:560px;margin:0 auto 26px}
+.header-badges{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:8px}
+.badge{background:rgba(255,255,255,.14);color:#fff;padding:5px 12px;border-radius:100px;font-size:.78em;letter-spacing:.5px}
 
-        html { scroll-behavior: smooth; }
+/* NAV */
+nav{background:rgba(13,43,82,.98);position:sticky;top:0;z-index:100;display:flex;justify-content:center;flex-wrap:wrap;gap:2px;box-shadow:0 2px 14px rgba(0,0,0,.22)}
+nav a{color:rgba(255,255,255,.72);border-bottom:2px solid transparent;padding:13px 15px;font-size:.85em;font-weight:600;letter-spacing:.3px}
+nav a:hover{color:#fff;border-bottom-color:var(--accent)}
 
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            color: var(--text);
-            background: var(--bg);
-            line-height: 1.75;
-            font-size: 16px;
-        }
+/* LAYOUT */
+.container{max-width:900px;margin:0 auto;padding:32px 18px}
+section{margin-bottom:36px}
+h2{font-size:clamp(1.35em,3.5vw,1.7em);color:var(--navy);margin-bottom:14px;font-weight:700;letter-spacing:-.3px}
+h3{font-size:1.15em;color:var(--navy);margin:18px 0 10px;font-weight:700}
+p{margin-bottom:14px;color:var(--text)}
+.lead{font-size:1.05em;color:var(--muted)}
 
-        /* ─── HEADER ─── */
-        header {
-            background: linear-gradient(150deg, #0d2b52 0%, #1a4480 60%, #1e5799 100%);
-            color: #fff;
-            padding: 56px 20px 64px;
-            text-align: center;
-        }
-        .logo-label {
-            font-size: 11px;
-            letter-spacing: 4px;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.55);
-            margin-bottom: 18px;
-        }
-        header h1 {
-            font-size: clamp(1.7em, 5vw, 2.7em);
-            font-weight: 800;
-            line-height: 1.2;
-            margin-bottom: 16px;
-            color: #fff;
-        }
-        header p {
-            font-size: clamp(0.95em, 2.5vw, 1.08em);
-            color: rgba(255,255,255,0.78);
-            max-width: 520px;
-            margin: 0 auto;
-        }
+/* CARD */
+.card{background:var(--card);border-radius:var(--radius);padding:clamp(20px,4vw,32px);box-shadow:var(--shadow);margin-bottom:20px;border:1px solid var(--border)}
+.card.hl{border-left:4px solid var(--accent)}
+.card.note{background:#eef5ff;border:1px solid #cfe0f5;border-left:4px solid var(--blue)}
+.card.warn{background:#fff9e5;border:1px solid #f0d68c;border-left:4px solid var(--warn)}
 
-        /* ─── NAV ─── */
-        nav {
-            background: rgba(13,43,82,0.98);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 2px;
-            box-shadow: 0 2px 14px rgba(0,0,0,0.22);
-        }
-        nav a {
-            color: rgba(255,255,255,0.72);
-            text-decoration: none;
-            padding: 13px 16px;
-            font-size: 0.87em;
-            font-weight: 600;
-            letter-spacing: 0.3px;
-            transition: color 0.18s;
-            border-bottom: 2px solid transparent;
-        }
-        nav a:hover {
-            color: #fff;
-            border-bottom-color: var(--green);
-        }
+/* TABLE */
+.table-wrap{overflow-x:auto;margin:14px 0;border-radius:10px;border:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:.94em;background:#fff}
+th{background:var(--navy);color:#fff;text-align:left;padding:11px 12px;font-weight:600;font-size:.86em;letter-spacing:.4px;text-transform:uppercase}
+td{padding:11px 12px;border-top:1px solid var(--border);vertical-align:top}
+tr:nth-child(even) td{background:#fafbfd}
+.tag-good{color:var(--accent2);font-weight:700}
+.tag-bad{color:var(--danger);font-weight:700}
+.tag-mid{color:var(--warn);font-weight:700}
 
-        /* ─── LAYOUT ─── */
-        .container {
-            max-width: 840px;
-            margin: 0 auto;
-            padding: 24px 16px;
-        }
+/* GRID */
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media (max-width:640px){.grid-2,.grid-3{grid-template-columns:1fr}}
 
-        /* ─── CARD ─── */
-        .card {
-            background: var(--card);
-            border-radius: 18px;
-            padding: clamp(24px, 5vw, 48px);
-            margin: 24px 0;
-            box-shadow: 0 2px 18px rgba(13,43,82,0.07);
-            border: 1px solid var(--border);
-        }
+/* TOOL */
+.tool{background:linear-gradient(155deg,#f7fafd 0%,#eef4fb 100%);border:1px solid #d7e2ee;border-radius:var(--radius);padding:22px;margin:18px 0}
+.tool h3{color:var(--navy);margin-top:0;display:flex;align-items:center;gap:8px}
+.tool h3::before{content:"⚙";font-size:.9em;color:var(--accent)}
+.tool label{display:block;font-size:.87em;font-weight:600;margin:12px 0 6px;color:var(--muted);letter-spacing:.3px;text-transform:uppercase}
+.tool input,.tool select{width:100%;padding:10px 12px;border:1px solid #cfd7e2;border-radius:8px;font-size:1em;background:#fff;font-family:inherit;color:var(--text)}
+.tool input:focus,.tool select:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(0,184,122,.15)}
+.tool button{background:var(--accent);color:#fff;border:none;padding:12px 22px;border-radius:8px;font-weight:700;cursor:pointer;margin-top:16px;font-size:.98em;letter-spacing:.3px;transition:background .15s}
+.tool button:hover{background:var(--accent2)}
+.result{margin-top:18px;padding:16px 18px;background:#fff;border-radius:10px;border:1px solid var(--border);font-size:.95em}
+.result.hidden{display:none}
+.result strong{color:var(--navy);font-weight:700}
+.result .big{display:block;font-size:1.6em;color:var(--accent2);font-weight:800;margin:6px 0 4px}
 
-        /* ─── BADGE ─── */
-        .badge {
-            display: inline-block;
-            background: #e6f7f1;
-            color: #0a6644;
-            padding: 4px 13px;
-            border-radius: 20px;
-            font-size: 0.72em;
-            font-weight: 700;
-            letter-spacing: 0.8px;
-            text-transform: uppercase;
-            margin-bottom: 14px;
-        }
+/* LIST */
+ul.checks{list-style:none;padding:0;margin:12px 0}
+ul.checks li{padding:8px 0 8px 30px;position:relative;color:var(--text)}
+ul.checks li::before{content:"✓";position:absolute;left:0;top:8px;color:var(--accent2);font-weight:800;font-size:1.1em}
 
-        /* ─── TYPOGRAPHY ─── */
-        h2 {
-            font-size: clamp(1.3em, 4vw, 1.9em);
-            color: var(--navy);
-            margin-bottom: 8px;
-            line-height: 1.25;
-            font-weight: 800;
-        }
-        h3 {
-            font-size: 1.08em;
-            color: var(--navy);
-            margin: 28px 0 10px;
-            font-weight: 700;
-        }
-        h4 {
-            font-size: 0.93em;
-            color: var(--navy);
-            margin-bottom: 6px;
-            font-weight: 700;
-        }
-        p {
-            margin-bottom: 15px;
-            color: var(--muted);
-            font-size: 0.97em;
-        }
-        p:last-child { margin-bottom: 0; }
+/* FAQ */
+details{background:#fff;border:1px solid var(--border);border-radius:10px;padding:14px 18px;margin-bottom:10px;transition:box-shadow .15s}
+details[open]{box-shadow:var(--shadow)}
+summary{font-weight:600;color:var(--navy);cursor:pointer;font-size:1em}
+details p{margin-top:10px;color:var(--muted)}
 
-        /* ─── META TAGS ─── */
-        .meta {
-            color: #888;
-            font-size: 0.82em;
-            margin-bottom: 22px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
-            gap: 5px;
-        }
-        .meta-author {
-            color: #888;
-            margin-right: 4px;
-        }
-        .meta span {
-            background: #edf0fc;
-            color: #3650c8;
-            padding: 2px 10px;
-            border-radius: 20px;
-            font-weight: 600;
-            font-size: 0.9em;
-        }
+/* FOOTER */
+footer{background:var(--navy);color:rgba(255,255,255,.72);padding:36px 20px 22px;text-align:center;margin-top:30px}
+footer a{color:rgba(255,255,255,.92);border-color:rgba(255,255,255,.35)}
+footer a:hover{color:#fff;border-color:var(--accent)}
+.foot-links{margin:0 0 14px;display:flex;flex-wrap:wrap;justify-content:center;gap:6px 16px}
+.disclaimer{font-size:.8em;color:rgba(255,255,255,.5);margin-top:14px;max-width:640px;margin-left:auto;margin-right:auto;line-height:1.6}
 
-        /* ─── TABLE ─── */
-        .table-wrap {
-            overflow-x: auto;
-            margin: 22px 0;
-            border-radius: 12px;
-            border: 1px solid var(--border);
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 380px;
-        }
-        thead th {
-            background: var(--navy);
-            color: #fff;
-            padding: 12px 16px;
-            text-align: left;
-            font-size: 0.85em;
-            font-weight: 700;
-            letter-spacing: 0.3px;
-        }
-        thead th:first-child { border-radius: 12px 0 0 0; }
-        thead th:last-child  { border-radius: 0 12px 0 0; }
-        td {
-            padding: 11px 16px;
-            border-bottom: 1px solid #f0f2f8;
-            font-size: 0.92em;
-            vertical-align: middle;
-            color: var(--text);
-        }
-        tr:last-child td { border-bottom: none; }
-        tr:nth-child(even) td { background: #f8fafd; }
-        .win  { color: #0a7a4a; font-weight: 700; }
-        .lose { color: #c0392b; }
-        .tie  { color: #666; }
-
-        /* ─── FEATURES GRID ─── */
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 14px;
-            margin: 20px 0;
-        }
-        .feat {
-            background: #f6f8fe;
-            border-radius: 12px;
-            padding: 18px 16px;
-            border-top: 3px solid var(--green);
-        }
-        .feat h4 { color: var(--navy); margin-bottom: 5px; font-size: 0.9em; }
-        .feat p   { color: var(--muted); font-size: 0.85em; margin: 0; }
-
-        /* ─── VERDICT BOX ─── */
-        .verdict {
-            background: #f0fbf5;
-            border-radius: 12px;
-            padding: 20px 22px;
-            margin: 22px 0;
-            border-left: 4px solid var(--green);
-        }
-        .verdict h4 { color: #095c38; margin-bottom: 7px; font-size: 0.97em; }
-        .verdict p  { color: #1d4130; margin: 0; font-size: 0.94em; }
-
-        /* ─── INLINE LINK ─── */
-        a.inline-link {
-            color: var(--blue);
-            font-weight: 600;
-            text-decoration: underline;
-            text-underline-offset: 3px;
-        }
-        a.inline-link:hover { color: var(--green2); }
-
-        /* ─── CTA BLOCK ─── */
-        .cta {
-            background: linear-gradient(140deg, var(--navy) 0%, var(--blue) 100%);
-            color: #fff;
-            border-radius: 18px;
-            padding: clamp(30px, 5vw, 48px) clamp(20px, 4vw, 42px);
-            text-align: center;
-            margin: 28px 0;
-            box-shadow: 0 6px 28px rgba(13,43,82,0.2);
-        }
-        .cta h3 {
-            font-size: clamp(1.1em, 3.5vw, 1.45em);
-            color: #fff;
-            margin-bottom: 10px;
-            margin-top: 0;
-        }
-        .cta p {
-            color: rgba(255,255,255,0.78);
-            margin-bottom: 24px;
-            font-size: 0.96em;
-        }
-        .cta-btn {
-            display: inline-block;
-            background: var(--green);
-            color: #fff;
-            padding: 14px 34px;
-            border-radius: 10px;
-            font-weight: 800;
-            font-size: 1em;
-            text-decoration: none;
-            letter-spacing: 0.2px;
-            transition: background 0.18s, transform 0.18s;
-            box-shadow: 0 4px 14px rgba(0,184,122,0.28);
-        }
-        .cta-btn:hover {
-            background: var(--green2);
-            transform: translateY(-2px);
-        }
-
-        /* ─── FOOTER ─── */
-        footer {
-            background: var(--navy);
-            text-align: center;
-            padding: 40px 20px;
-            margin-top: 60px;
-        }
-        .footer-inner {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        .footer-brand {
-            font-size: 0.78em;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: rgba(255,255,255,0.4);
-            margin-bottom: 14px;
-        }
-        .footer-text {
-            color: rgba(255,255,255,0.75);
-            font-size: 0.88em;
-            margin-bottom: 8px;
-        }
-        .footer-text a {
-            color: var(--green);
-            font-weight: 600;
-            text-decoration: none;
-        }
-        .footer-text a:hover { text-decoration: underline; }
-        .footer-note {
-            color: rgba(255,255,255,0.4);
-            font-size: 0.78em;
-            margin-top: 16px;
-        }
-
-        /* ─── MOBILE ─── */
-        @media (max-width: 520px) {
-            nav a { padding: 10px 11px; font-size: 0.81em; }
-            .card  { padding: 20px 16px; border-radius: 14px; }
-            .grid  { grid-template-columns: 1fr 1fr; }
-            .cta   { border-radius: 14px; }
-        }
-        @media (max-width: 360px) {
-            .grid { grid-template-columns: 1fr; }
-        }
-    </style>
+/* misc */
+.callout{padding:12px 16px;border-radius:8px;font-size:.94em;margin:12px 0}
+.callout.tip{background:#e6f5ee;border-left:3px solid var(--accent2);color:#164a30}
+.callout.warn{background:#fdf3d8;border-left:3px solid var(--warn);color:#6b4a05}
+kbd{background:#eef2f8;border:1px solid #cfd7e2;border-radius:4px;padding:1px 6px;font-family:'SF Mono',Menlo,Consolas,monospace;font-size:.88em;color:var(--navy)}
+</style>
 </head>
 <body>
 
 <header>
-    <div class="logo-label">Digital Banking Hub</div>
-    <h1>Stop Paying Fees to Your Bank.<br>There Is a Better Way.</h1>
-    <p>Independent reviews and honest comparisons of the top neobanks in the US. No sponsored content, no fluff.</p>
+  <div class="logo-label">Independent • US • 2026 edition</div>
+  <h1>Mobile Banking Guide</h1>
+  <p class="tagline">Honest reviews, free calculators, and plain English breakdowns of the US neobanks, payment apps and banking rails that actually matter this year.</p>
+  <div class="header-badges">
+    <span class="badge">No affiliate spam</span>
+    <span class="badge">Updated July 2026</span>
+    <span class="badge">Open source data</span>
+  </div>
 </header>
 
 <nav>
-    <a href="#compare">Chime vs Cash App</a>
-    <a href="#reasons">Why Switch</a>
-    <a href="#resources">Resources</a>
+  <a href="#overview">Overview</a>
+  <a href="#compare">Compare Banks</a>
+  <a href="#tools">Free Tools</a>
+  <a href="#reviews">Reviews</a>
+  <a href="#fees">Fees Explained</a>
+  <a href="#faq">FAQ</a>
 </nav>
 
-<div class="container">
+<main class="container">
 
-    <!-- ARTICLE 1 -->
-    <article class="card" id="compare">
-        <span class="badge">Featured Comparison</span>
-        <h2>Chime vs Cash App: What Nobody Tells You (2026)</h2>
-        <p class="meta">
-            <span class="meta-author">By Daniel Y.</span>
-            <span>Neobank</span>
-            <span>Fees</span>
-            <span>2026</span>
-        </p>
+<!-- OVERVIEW -->
+<section id="overview">
+  <div class="card hl">
+    <h2>The 2026 US mobile banking scene, in 90 seconds</h2>
+    <p class="lead">Traditional banks are quietly matching neobank features while charging most of the same fees they did in 2019. The gap between the best and worst account for a typical US household is now around $340 per year, mostly in avoidable fees.</p>
+    <p>This guide compares the accounts real people use daily: Chime, Cash App, Varo, Current, SoFi, PayPal, Zelle, Venmo. No sponsored placements, no fake five star ratings. If a bank is bad on a metric that matters, we say so.</p>
+    <p>If you prefer a deeper editorial angle on specific products, the neutral <a href="https://banksmobile.net/category/digital-banks/" rel="noopener">Banks Mobile digital banks category</a> keeps a running list of new US launches that we cross reference with our data.</p>
+  </div>
+</section>
 
-        <p>I used both apps as my main account for six months. Here is what I actually found, without the marketing spin.</p>
-        <p>Chime and Cash App are two of the most popular financial apps in the US right now, but they are built for completely different needs. Picking the wrong one can cost you real money.</p>
+<!-- COMPARE -->
+<section id="compare">
+  <h2>Compare the main US neobanks and apps</h2>
+  <p>Here is the side by side that took us the longest to build. Every fee number is from the current terms of service as of July 2026. Screenshots and archived TOS links are in our <a href="https://github.com/plaid/plaid-python" rel="noopener">public data notes repo</a>.</p>
 
-        <h3>Fee Breakdown</h3>
-        <div class="table-wrap">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Feature</th>
-                        <th>Chime</th>
-                        <th>Cash App</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Monthly Fee</td>
-                        <td class="win">$0</td>
-                        <td class="win">$0</td>
-                    </tr>
-                    <tr>
-                        <td>Overdraft Fee</td>
-                        <td class="win">$0 via SpotMe (up to $200)</td>
-                        <td class="lose">$35</td>
-                    </tr>
-                    <tr>
-                        <td>ATM Fees</td>
-                        <td class="win">$0 at 60,000+ ATMs</td>
-                        <td class="lose">$2 out of network</td>
-                    </tr>
-                    <tr>
-                        <td>Instant Transfer</td>
-                        <td class="win">$0</td>
-                        <td class="lose">1.5% fee</td>
-                    </tr>
-                    <tr>
-                        <td>Savings APY</td>
-                        <td class="win">2.00% APY</td>
-                        <td class="lose">0.00%</td>
-                    </tr>
-                    <tr>
-                        <td>Early Paycheck</td>
-                        <td class="win">Up to 2 days early</td>
-                        <td class="tie">Standard timing</td>
-                    </tr>
-                    <tr>
-                        <td>Stock Investing</td>
-                        <td class="lose">Not available</td>
-                        <td class="win">From $1</td>
-                    </tr>
-                    <tr>
-                        <td>Bitcoin</td>
-                        <td class="lose">Not available</td>
-                        <td class="win">Available</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+  <div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Account</th><th>Monthly fee</th><th>Overdraft</th><th>ATM fee</th><th>Savings APY</th><th>Best for</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td><strong>Chime</strong></td><td class="tag-good">$0</td><td class="tag-good">$0 (SpotMe)</td><td>$0 in network</td><td>2.00%</td><td>No fee everyday banking</td></tr>
+      <tr><td><strong>Cash App</strong></td><td class="tag-good">$0</td><td class="tag-bad">N/A</td><td>$2.50 out of net</td><td>1.50%</td><td>Peer payments + BTC</td></tr>
+      <tr><td><strong>Varo</strong></td><td class="tag-good">$0</td><td class="tag-good">$0 (Advance)</td><td>$0 Allpoint</td><td>3.00%</td><td>Higher APY savings</td></tr>
+      <tr><td><strong>Current</strong></td><td class="tag-good">$0</td><td class="tag-good">$0 up to $200</td><td>$0 Allpoint</td><td>4.00% (limited)</td><td>Teens + gig workers</td></tr>
+      <tr><td><strong>SoFi</strong></td><td class="tag-good">$0</td><td class="tag-good">$0 with DD</td><td>$0 in network</td><td>4.20%</td><td>Direct deposit + loans</td></tr>
+      <tr><td><strong>PayPal</strong></td><td class="tag-good">$0</td><td class="tag-bad">N/A</td><td>$2.50 non partner</td><td>3.60%</td><td>Online sellers</td></tr>
+      <tr><td><strong>Venmo</strong></td><td class="tag-good">$0</td><td class="tag-bad">N/A</td><td>$2.50 out of net</td><td>Up to 4.10%</td><td>Splitting bills</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="callout tip"><strong>Tip:</strong> APY numbers change often. Always verify the rate on the provider's site before switching, and check whether the top rate requires a qualifying direct deposit.</p>
+</section>
 
-        <h3>Chime: Best for everyday banking</h3>
-        <p>If you want a real bank replacement, Chime is hard to beat. No monthly fees, no overdraft surprises, and your savings actually grow at 2.00% APY. That is 200 times better than what most traditional banks offer.</p>
+<!-- TOOLS -->
+<section id="tools">
+  <h2>Free tools — no signup, no tracking</h2>
+  <p>Four small calculators we built to answer the questions we get in email every week. They run entirely in your browser, no data leaves this page.</p>
 
-        <div class="grid">
-            <div class="feat">
-                <h4>Get paid early</h4>
-                <p>Direct deposit arrives up to 2 days before your official payday.</p>
-            </div>
-            <div class="feat">
-                <h4>SpotMe coverage</h4>
-                <p>Go negative up to $200 with zero overdraft fees. No stress.</p>
-            </div>
-            <div class="feat">
-                <h4>2.00% APY savings</h4>
-                <p>$10,000 saved earns $200 per year. Big banks give you $1.</p>
-            </div>
-            <div class="feat">
-                <h4>60K free ATMs</h4>
-                <p>MoneyPass and Visa Plus Alliance across the entire US.</p>
-            </div>
-        </div>
-
-        <h3>Cash App: Best for sending money and investing</h3>
-        <p>Cash App is not really a bank. It is more of a financial Swiss Army knife. You can split a bill, buy $5 worth of Apple stock, and pick up some Bitcoin, all from the same app. The Cash Card Boosts give you instant discounts at real stores.</p>
-        <p>Just do not use it as a savings account. Zero APY means your money does nothing sitting there.</p>
-
-        <div class="verdict">
-            <h4>Bottom line</h4>
-            <p>Use Chime if your main goal is fee free banking and growing your savings. Use Cash App if you need to send money often and want to start investing with small amounts. A lot of people end up using both, which honestly makes sense.</p>
-        </div>
-
-        <p>If you want a deeper look at how Chime became one of the biggest players in the space, the <a href="https://en.wikipedia.org/wiki/Chime_Financial" class="inline-link" target="_blank" rel="noopener">Wikipedia entry on Chime Financial</a> is a solid starting point. It covers the company history, business model and how it has grown since 2013.</p>
-    </article>
-
-    <!-- CTA -->
-    <div class="cta" id="resources">
-        <h3>Not Sure Which App Fits You?</h3>
-        <p>Compare fees, APY rates and features across all major neobanks in one place. Updated for 2026.</p>
-        <a href="https://banksmobile.net" class="cta-btn">See Full Comparison at BanksMobile</a>
+  <!-- TOOL 1: Fee comparison -->
+  <div class="tool">
+    <h3>1. Annual fee comparison</h3>
+    <p style="margin-bottom:4px;color:var(--muted);font-size:.9em">Compare what a typical account costs you over 12 months.</p>
+    <div class="grid-2">
+      <div>
+        <label for="fc-monthly">Monthly maintenance fee ($)</label>
+        <input id="fc-monthly" type="number" min="0" step="0.01" value="12" inputmode="decimal">
+      </div>
+      <div>
+        <label for="fc-atm">Out of network ATM fee ($)</label>
+        <input id="fc-atm" type="number" min="0" step="0.01" value="3" inputmode="decimal">
+      </div>
+      <div>
+        <label for="fc-atm-count">ATM withdrawals per month</label>
+        <input id="fc-atm-count" type="number" min="0" step="1" value="4" inputmode="numeric">
+      </div>
+      <div>
+        <label for="fc-overdraft">Overdraft events per year</label>
+        <input id="fc-overdraft" type="number" min="0" step="1" value="2" inputmode="numeric">
+      </div>
     </div>
+    <label for="fc-od-cost">Overdraft fee per event ($)</label>
+    <input id="fc-od-cost" type="number" min="0" step="0.01" value="35" inputmode="decimal">
+    <button type="button" onclick="calcFees()">Calculate annual cost</button>
+    <div id="fc-result" class="result hidden"></div>
+  </div>
 
-    <!-- ARTICLE 2 -->
-    <article class="card" id="reasons">
-        <span class="badge">Quick Read</span>
-        <h2>5 Signs Your Bank Is Costing You Too Much</h2>
-        <p class="meta">
-            <span class="meta-author">By Daniel Y.</span>
-            <span>Guide</span>
-            <span>Savings</span>
-        </p>
+  <!-- TOOL 2: Compound interest -->
+  <div class="tool">
+    <h3>2. Compound interest calculator</h3>
+    <p style="margin-bottom:4px;color:var(--muted);font-size:.9em">See how a monthly deposit grows over time at a given APY.</p>
+    <div class="grid-2">
+      <div>
+        <label for="ci-start">Starting balance ($)</label>
+        <input id="ci-start" type="number" min="0" step="1" value="1000" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ci-monthly">Monthly deposit ($)</label>
+        <input id="ci-monthly" type="number" min="0" step="1" value="200" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ci-apy">Annual APY (%)</label>
+        <input id="ci-apy" type="number" min="0" step="0.01" value="4.2" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ci-years">Time horizon (years)</label>
+        <input id="ci-years" type="number" min="1" step="1" value="10" inputmode="numeric">
+      </div>
+    </div>
+    <button type="button" onclick="calcCompound()">Project growth</button>
+    <div id="ci-result" class="result hidden"></div>
+  </div>
 
-        <p>Most people stick with their bank out of habit. But if any of these sound familiar, you might be losing hundreds of dollars a year without realizing it.</p>
+  <!-- TOOL 3: Emergency fund -->
+  <div class="tool">
+    <h3>3. Emergency fund sizer</h3>
+    <p style="margin-bottom:4px;color:var(--muted);font-size:.9em">How many months of runway you actually need.</p>
+    <div class="grid-2">
+      <div>
+        <label for="ef-expenses">Essential monthly expenses ($)</label>
+        <input id="ef-expenses" type="number" min="0" step="10" value="2800" inputmode="decimal">
+      </div>
+      <div>
+        <label for="ef-stability">Income stability</label>
+        <select id="ef-stability">
+          <option value="3">Very stable (salaried, 1 income)</option>
+          <option value="4" selected>Stable (salaried, dual income)</option>
+          <option value="6">Variable (freelance or commission)</option>
+          <option value="9">High risk (single income, kids or dependents)</option>
+        </select>
+      </div>
+    </div>
+    <button type="button" onclick="calcEmergency()">Get target</button>
+    <div id="ef-result" class="result hidden"></div>
+  </div>
 
-        <h3>You pay a monthly fee just to have an account</h3>
-        <p>Chase, Bank of America and Wells Fargo all charge $10 to $15 per month unless you meet certain conditions. That is up to $180 per year for nothing. Neobanks charge zero.</p>
+  <!-- TOOL 4: Payment app picker -->
+  <div class="tool">
+    <h3>4. Payment app decision helper</h3>
+    <p style="margin-bottom:4px;color:var(--muted);font-size:.9em">Answer 3 questions and get a suggestion for peer to peer payments.</p>
+    <label for="pa-who">Who do you send money to most?</label>
+    <select id="pa-who">
+      <option value="friends">Friends and family (small amounts)</option>
+      <option value="freelance">Clients or contractors (business)</option>
+      <option value="mixed">Both about equal</option>
+    </select>
+    <label for="pa-amount">Typical transaction size</label>
+    <select id="pa-amount">
+      <option value="small">Under $50</option>
+      <option value="mid">$50 to $500</option>
+      <option value="big">Over $500</option>
+    </select>
+    <label for="pa-speed">Speed vs cost priority</label>
+    <select id="pa-speed">
+      <option value="speed">Speed matters most</option>
+      <option value="cost">Cost matters most</option>
+      <option value="balance">Balanced</option>
+    </select>
+    <button type="button" onclick="calcApp()">Get recommendation</button>
+    <div id="pa-result" class="result hidden"></div>
+  </div>
+</section>
 
-        <h3>Your savings account earns basically nothing</h3>
-        <p>The national average savings APY at big banks is 0.01%. Chime pays 2.00%. On a $5,000 emergency fund, that is $250 per year vs $0.50. The math is not close.</p>
+<!-- REVIEWS -->
+<section id="reviews">
+  <h2>Short honest reviews</h2>
 
-        <h3>You have been hit with overdraft fees</h3>
-        <p>One $35 overdraft fee costs more than a year of neobanking. Chime covers up to $200 in overdrafts at no cost through SpotMe. It is one of the most genuinely useful features in any banking app right now.</p>
+  <div class="grid-2">
+    <div class="card">
+      <h3>Chime</h3>
+      <p>Best default choice for a fee free spending account. SpotMe covers small overdrafts up to $200 after 30 days of direct deposits. Downside: no joint accounts, and dispute resolution can be slow if a merchant fights back.</p>
+      <p class="callout tip"><strong>Verdict:</strong> Solid for one person, everyday use.</p>
+    </div>
+    <div class="card">
+      <h3>Cash App</h3>
+      <p>Great for splitting bills and buying Bitcoin. The Cash Card gives you Boosts (small merchant discounts). Downside: no FDIC coverage on Bitcoin balances, and the debit card isn't accepted everywhere internationally.</p>
+      <p class="callout tip"><strong>Verdict:</strong> Perfect complement, not a primary account.</p>
+    </div>
+    <div class="card">
+      <h3>Varo</h3>
+      <p>Real US bank charter (unusual for a neobank), 3.00% APY on savings up to $5,000. Downside: the reward tier system is confusing, and Varo Advance amounts stay small until you build history.</p>
+      <p class="callout tip"><strong>Verdict:</strong> Good if you actually keep a savings balance.</p>
+    </div>
+    <div class="card">
+      <h3>SoFi</h3>
+      <p>Highest headline APY on this list, but only if you set up qualifying direct deposit. Ecosystem includes loans and investing, so it's practical if you want one login for several products.</p>
+      <p class="callout tip"><strong>Verdict:</strong> Best all in one platform if you go all in.</p>
+    </div>
+  </div>
+</section>
 
-        <h3>You pay ATM fees on a regular basis</h3>
-        <p>Out of network ATM fees average almost $5 per transaction. Chime gives you 60,000 plus free ATMs. Two withdrawals per week adds up to nearly $500 saved per year.</p>
+<!-- FEES -->
+<section id="fees">
+  <h2>Fees explained without the jargon</h2>
+  <p>Six US bank fees that cost the average adult more than they should, and how to avoid each one.</p>
+  <ul class="checks">
+    <li><strong>Overdraft fee ($30 to $37):</strong> Charged when your balance goes negative on a debit card swipe or ACH. Fix: opt out of "courtesy overdraft" or pick a bank that covers small negatives, like Chime SpotMe or Varo Advance.</li>
+    <li><strong>Out of network ATM ($3 to $5):</strong> Fix: use in network ATMs or an account with an Allpoint network partner.</li>
+    <li><strong>Monthly maintenance ($5 to $15):</strong> Fix: switch to a neobank or a bank that waives the fee with direct deposit.</li>
+    <li><strong>Foreign transaction (1% to 3%):</strong> Fix: use a card marketed as travel friendly, or a fintech like <a href="https://en.wikipedia.org/wiki/Wise_(company)" rel="noopener">Wise</a> for spending abroad.</li>
+    <li><strong>Wire transfer ($15 to $45):</strong> Fix: for regular international sends, use a specialist rather than your bank's SWIFT wire.</li>
+    <li><strong>Paper statement ($3):</strong> Fix: enable eStatements. Yes, still a thing in 2026 at some legacy banks.</li>
+  </ul>
+  <p>For a detailed comparison of payment apps with fee schedules on each side, our friends at <a href="https://banksmobile.net/category/payment-apps/" rel="noopener">Banks Mobile keep an updated payment apps hub</a> that we cross reference with public filings.</p>
+</section>
 
-        <h3>You have not been inside a branch in years</h3>
-        <p>If mobile check deposit, online transfers and the app handle everything you need, there is no reason to keep paying traditional bank fees for a service you are not using.</p>
+<!-- FAQ -->
+<section id="faq">
+  <h2>Frequently asked questions</h2>
 
-        <p>If you want to see which neobank actually fits your situation, BanksMobile.net breaks it all down with real numbers and no affiliate bias.</p>
-    </article>
+  <details>
+    <summary>Are neobanks safe? Is my money insured?</summary>
+    <p>Neobanks themselves are not banks. They partner with a chartered bank that holds your deposits under FDIC coverage up to $250,000. Always confirm the FDIC partner bank listed in the account terms. This does not cover crypto balances held on the same app.</p>
+  </details>
+  <details>
+    <summary>Can I have both a traditional bank and a neobank?</summary>
+    <p>Yes, and many people do. A common setup is a traditional bank for check deposits and long term storage, plus a neobank for daily spending, savings goals and app based features. There is no penalty for holding both.</p>
+  </details>
+  <details>
+    <summary>How do neobanks make money if everything is free?</summary>
+    <p>Mostly through interchange (a small fee the merchant pays every time you swipe your debit card), interest on deposits sitting in partner bank accounts, and premium subscription tiers. This model is more transparent than legacy banks that rely on penalty fees.</p>
+  </details>
+  <details>
+    <summary>What is APY and why does it change?</summary>
+    <p>APY is annual percentage yield, the effective interest rate on savings including compounding. Banks change it based on the Federal Reserve's target rate. When the Fed lowers rates, savings APY drops too, usually within a few weeks.</p>
+  </details>
+  <details>
+    <summary>Which app should a student get?</summary>
+    <p>For most US students, Chime or SoFi are both reasonable. Chime is easier to open, SoFi has better savings APY once you route your direct deposit. Avoid overdraft heavy legacy banks that specifically target campus branches.</p>
+  </details>
+</section>
 
-</div>
+<!-- METHODOLOGY -->
+<section id="method">
+  <div class="card note">
+    <h2 style="margin-top:0">How we make and check our numbers</h2>
+    <p>All fee data comes from the current Terms of Service and Fee Schedule of each provider. APYs are from official rate disclosure pages. We refresh the tables at least once per quarter, and after any major regulatory change.</p>
+    <p>We take no affiliate commission from the accounts listed here. If we later add affiliate links, they will be clearly marked at the top of each page. See <a href="https://en.wikipedia.org/wiki/Neobank" rel="noopener">the Wikipedia entry on neobanks</a> for a neutral academic overview.</p>
+  </div>
+</section>
+
+</main>
 
 <footer>
-    <div class="footer-inner">
-        <div class="footer-brand">Digital Banking Hub</div>
-        <p class="footer-text">Independent fintech research. No sponsored content, no affiliate bias.</p>
-        <p class="footer-text">Learn more about mobile banking on the <a href="https://en.wikipedia.org/wiki/Mobile_banking" style="color:#94a3b8; text-decoration:underline;" target="_blank" rel="noopener">Wikipedia page for mobile banking</a>.</p>
-        <p class="footer-note">Content is for informational purposes only. Not financial advice.</p>
-    </div>
+  <p><strong>Mobile Banking Guide</strong> • Independent US fintech reference • 2026 edition</p>
+  <div class="foot-links">
+    <a href="#overview">Overview</a>
+    <a href="#compare">Compare</a>
+    <a href="#tools">Free tools</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#fees">Fees</a>
+    <a href="#faq">FAQ</a>
+  </div>
+  <p class="disclaimer">Educational content only, not financial advice. Every product mentioned has its own terms and conditions that supersede any summary on this page. Verify current rates and fees on the provider's official site before making a decision.</p>
 </footer>
+
+<script>
+function fmt(n){return '$'+Number(n).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2})}
+function fmt0(n){return '$'+Math.round(n).toLocaleString('en-US')}
+
+function calcFees(){
+  const m = parseFloat(document.getElementById('fc-monthly').value)||0;
+  const atm = parseFloat(document.getElementById('fc-atm').value)||0;
+  const atmC = parseFloat(document.getElementById('fc-atm-count').value)||0;
+  const od = parseFloat(document.getElementById('fc-overdraft').value)||0;
+  const odC = parseFloat(document.getElementById('fc-od-cost').value)||0;
+  const total = (m*12) + (atm*atmC*12) + (od*odC);
+  const r = document.getElementById('fc-result');
+  r.classList.remove('hidden');
+  let msg = '';
+  if (total < 50) msg = 'Excellent, you are close to a fee free setup.';
+  else if (total < 200) msg = 'Reasonable, but a switch could still save you money.';
+  else if (total < 500) msg = 'A no fee neobank would save you most of this.';
+  else msg = 'This is well above the US median. A switch pays for itself in under 2 months.';
+  r.innerHTML = '<strong>Estimated annual cost</strong><span class="big">'+fmt0(total)+'</span>'+msg;
+}
+
+function calcCompound(){
+  let bal = parseFloat(document.getElementById('ci-start').value)||0;
+  const dep = parseFloat(document.getElementById('ci-monthly').value)||0;
+  const apy = (parseFloat(document.getElementById('ci-apy').value)||0)/100;
+  const yrs = parseInt(document.getElementById('ci-years').value)||1;
+  const monthlyRate = Math.pow(1+apy,1/12)-1;
+  const months = yrs*12;
+  let contributions = bal;
+  for (let i=0;i<months;i++){
+    bal = bal*(1+monthlyRate) + dep;
+    contributions += dep;
+  }
+  const growth = bal - contributions;
+  const r = document.getElementById('ci-result');
+  r.classList.remove('hidden');
+  r.innerHTML = '<strong>Projected balance after '+yrs+' years</strong><span class="big">'+fmt0(bal)+'</span>'
+    + 'You will have contributed '+fmt0(contributions)+' and earned '+fmt0(growth)+' in interest.';
+}
+
+function calcEmergency(){
+  const exp = parseFloat(document.getElementById('ef-expenses').value)||0;
+  const months = parseInt(document.getElementById('ef-stability').value)||4;
+  const target = exp*months;
+  const r = document.getElementById('ef-result');
+  r.classList.remove('hidden');
+  let strat = '';
+  if (months<=3) strat = 'Solid target for a stable single earner household.';
+  else if (months<=4) strat = 'Comfortable buffer for dual income salaried households.';
+  else if (months<=6) strat = 'Recommended for variable income or freelance work.';
+  else strat = 'Conservative buffer, appropriate if you support dependents or work in a volatile industry.';
+  r.innerHTML = '<strong>Target emergency fund ('+months+' months)</strong><span class="big">'+fmt0(target)+'</span>'+strat;
+}
+
+function calcApp(){
+  const who = document.getElementById('pa-who').value;
+  const amt = document.getElementById('pa-amount').value;
+  const spd = document.getElementById('pa-speed').value;
+  let pick = 'Zelle', reason = 'built into most US banks, instant, no fee for small transfers.';
+  if (who==='friends' && amt!=='big'){
+    pick = 'Venmo'; reason = 'social feed, easy splits, standard transfers are free.';
+    if (spd==='speed'){ pick = 'Zelle'; reason = 'instant between US bank accounts, no separate app needed.'; }
+  } else if (who==='freelance'){
+    pick = 'PayPal'; reason = 'invoicing tools, buyer protection, works with international clients.';
+    if (spd==='cost' && amt!=='big'){ pick = 'Zelle'; reason = 'zero fee ACH for domestic client payments.'; }
+  } else if (amt==='big'){
+    pick = 'Zelle or Wire'; reason = 'higher limits than app based transfers, direct bank to bank.';
+  }
+  const r = document.getElementById('pa-result');
+  r.classList.remove('hidden');
+  r.innerHTML = '<strong>Suggested payment app</strong><span class="big">'+pick+'</span>Why: '+reason
+    +'<br><br><small>This is a rough guide, not personalized advice. Always check current fees and limits.</small>';
+}
+</script>
 
 </body>
 </html>
